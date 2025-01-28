@@ -1,50 +1,188 @@
-:root{
-    --text-color: #b3b3b3;
+:root {
+  --text-color: #b3b3b3;
 }
 
-.text-color{color: var(--text-color);}
-
-body{
-    background-color: black;
-    color: var(--text-color);;
-    font-family: 'DM Sans', sans-serif;
+.text-color {
+  color: var(--text-color);
 }
 
-aside.sidebar{
-    width: 300px;
-    
-}
-aside.sidebar .sidebar-navigation{
-    background-color: #121212;
-    border-radius: 8px;
-    margin: 16px 0px 0px 16px;
-    padding: 16px;
-    
+body {
+  background-color: black;
+  color: var(--text-color);
+  font-family: "DM Sans", sans-serif;
 }
 
-aside.sidebar .logo{
-    width: 80px;
-    margin-bottom: 16px;
+.flex {
+  display: flex;
 }
 
-aside.sidebar .item-sidebar{
-    display: flex;
-    column-gap: 8px;
-    align-items: center;
-    text-decoration: none;
-    font-weight: 600;
-    padding: 8px 0px;
-    font-size: 14px;
+.mb-4 {
+  margin-bottom: 8px !important;
 }
 
-aside.sidebar .sidebar-navigation .biblioteca{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.mb-6 {
+  margin-bottom: 16px !important;
 }
 
-aside.sidebar .sidebar-navigation .biblioteca .title-directory{
-    font-weight: 700;
-    display: flex;
-    column-gap: 16px;
+.my-6 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.p-3 {
+  padding: 12px !important;
+}
+
+.fs-large {
+  font-size: 18px;
+}
+
+.fs-small {
+  font-size: 14px;
+}
+
+.fs-xsmall {
+  font-size: 12px;
+}
+
+.transition {
+  transition: 0.3s ease-in all;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 130%;
+}
+
+p,
+a,
+button {
+  line-height: 150%;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+.content-center {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+aside.sidebar {
+  width: 300px;
+}
+aside.sidebar .sidebar-navigation {
+  background-color: #121212;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+aside.sidebar .logo {
+  width: 80px;
+  margin-bottom: 16px;
+}
+
+aside.sidebar .item-sidebar {
+  column-gap: 8px;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 0px;
+}
+
+aside.sidebar .sidebar-navigation .biblioteca {
+  align-items: center;
+  justify-content: space-between;
+}
+
+aside.sidebar .sidebar-navigation .biblioteca .title-directory {
+  align-items: center;
+  font-weight: 700;
+  column-gap: 16px;
+}
+
+aside.sidebar .sidebar-navigation:nth-child(2) {
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+aside.sidebar .sidebar-navigation .playlist {
+  background-color: #1f1f1f;
+  padding: 12px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+aside.sidebar .sidebar-navigation .playlist .title-playlist {
+  font-weight: 700;
+}
+
+aside.sidebar .sidebar-navigation .playlist .button-playlist {
+  background-color: #fafafa;
+  padding: 8px 16px;
+  border-radius: 24px;
+  font-weight: 700;
+}
+
+aside.sidebar .sidebar-navigation .playlist .button-playlist:hover {
+  background-color: var(--text-color);
+}
+
+aside.sidebar .sidebar-navigation .cookies {
+  color: #fff;
+}
+
+aside.sidebar .sidebar-navigation .cookies:hover {
+  text-decoration: underline;
+}
+
+aside.sidebar .sidebar-navigation .language {
+  color: #fff;
+  width: max-content;
+  border: 1px solid #fff;
+  padding: 8px 16px;
+  border-radius: 24px;
+  font-weight: 500;
+}
+
+aside.sidebar .sidebar-navigation .language:hover {
+  background-color: #1f1f1f;
+}
+
+/* FOOTER STYLES */
+
+footer.footer-spotify {
+  background: linear-gradient(to right, #ae2896, #509bf5);
+  padding: 16px 32px;
+}
+
+footer.footer-spotify .content-footer {
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+footer.footer-spotify .content-footer .btn-inscrever-footer {
+  color: #121212;
+  background-color: var(--text-color);
+  font-weight: 700;
+  padding: 16px 32px;
+  border-radius: 32px;
+}
+
+footer.footer-spotify .content-footer .btn-inscrever-footer {
+  color: #121212;
+  background-color: var(--text-color);
+  font-weight: 700;
+  padding: 16px 32px;
+  border-radius: 32px;
+}
+
+footer.footer-spotify .content-footer .btn-inscrever-footer:hover {
+  background-color: #fff;
 }

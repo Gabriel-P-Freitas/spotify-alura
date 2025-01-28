@@ -1,50 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Spotify - Alura</title>
-</head>
-<body>
-    <aside class="sidebar">
-        <nav class="sidebar-navigation">
-            <a class="logo" href=""><img src="assets/icons/logo-spotify.png" alt="Logo do Spotify"></a>
-
+  </head>
+  <body>
+    <div class="content">
+      <section class="content-center mb-6">
+        <aside class="sidebar">
+          <nav class="sidebar-navigation p-3 my-6">
+            <a class="logo" href=""
+              ><img src="assets/icons/logo-spotify.png" alt="Logo do Spotify"
+            /></a>
             <ul class="list-sidebar">
-                <li>
-                    <a class="item-sidebar text-color" href="">
-                        <span class="icone-sidebar fa-solid fa-house"></span>
-                        <span>Início</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="item-sidebar text-color" href="">
-                        <span class="icone-sidebar fa-solid fa-search"></span>
-                        <span>Buscar</span>
-                    </a>
-                </li>
+              <li>
+                <a class="item-sidebar text-color flex fs-small" href="">
+                  <span class="icone-sidebar fa-solid fa-house"></span>
+                  <span>Início</span>
+                </a>
+              </li>
+              <li>
+                <a class="item-sidebar text-color flex fs-small" href="">
+                  <span class="icone-sidebar fa-solid fa-search"></span>
+                  <span>Buscar</span>
+                </a>
+              </li>
             </ul>
-
-        </nav>
-
-        <nav class="sidebar-navigation">
-            <div class="biblioteca ">
-                <div class="title-directory">
-                    <span class="fa-solid fa-book"></span>
-                    <h6>Sua biblioteca</h6>
-                </div>
-                <button class="fa-solid fa-plus text-color"></button>
+          </nav>
+          <nav class="sidebar-navigation flex">
+            <div class="biblioteca flex p-3">
+              <div class="title-directory flex">
+                <span class="fa-solid fa-book fs-large"></span>
+                <h5 class="fs-large">Sua biblioteca</h5>
+              </div>
+              <button class="fa-solid fa-plus text-color"></button>
             </div>
-
-
-        </nav>
-
-
-    </aside>
-    
-    
-</body>
+            <div class="playlist">
+              <h6 class="title-playlist mb-4">Crie sua primeira playlist</h6>
+              <p class="text-playlist mb-4 fs-xsmall">
+                É fácil, vamos te ajudar
+              </p>
+              <button class="button-playlist fs-xsmall transition">
+                Criar playlist
+              </button>
+            </div>
+            <a href="" class="cookies fs-small transition">Cookies</a>
+            <button class="language fs-small transition mb-6">
+              <span class="fa-solid fa-globe"></span>
+              Português do Brasil
+            </button>
+          </nav>
+        </aside>
+      </section>
+      <footer class="footer-spotify mx-auto">
+        <section class="content-footer content-center flex">
+          <div class="info-footer">
+            <h5 class="mb-4">TESTAR O PREMIUM DE GRAÇA</h5>
+            <p>
+              Inscreva-se para curtir música ilimitada e podcasts só com alguns
+              anúncios. Não precisa de cartão de crédito.
+            </p>
+          </div>
+          <a href="" class="btn-inscrever-footer fs-large transition"
+            ><button>Inscreva-se grátis</button></a
+          >
+        </section>
+      </footer>
+    </div>
+  </body>
 </html>
