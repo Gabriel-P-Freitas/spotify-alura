@@ -8,6 +8,7 @@
   padding: 0.75rem 1.5rem;
   background-color: #121212;
   border-radius: 12px;
+  margin-bottom: 32px;
 }
 
 .content-center > .hero > header .navigation-header {
@@ -81,16 +82,35 @@ main .offer-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 16px;
+  padding: 16px 12px 0px 0px;
+  height: 22.5rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+main .offer-list::-webkit-scrollbar {
+  width: 8px;
+  background-color: transparent;
+}
+
+main .offer-list::-webkit-scrollbar-thumb {
+  background-color: var(--text-color);
+  border-radius: 8px;
 }
 
 main .offer-list .offer-list-item {
+  height: 200px;
   overflow: hidden;
   border-radius: 16px;
 }
 
+main .offer-list .offer-list-item:hover {
+  transform: scale(1.04);
+}
+
 main .offer-list .offer-list-item a {
   width: 100%;
-  height: 200px;
+  height: 100%;
   position: relative;
 }
 
