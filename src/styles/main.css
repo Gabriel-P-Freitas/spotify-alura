@@ -14,6 +14,8 @@
 .content-center > .hero > header .navigation-header {
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 16px;
 }
 
 .content-center > .hero > header .navigation-header .search {
@@ -58,10 +60,19 @@
   > .hero
   > header
   .navigation-header
+  .user-account{
+    align-items: center;
+    justify-content: center;
+}
+
+.content-center
+  > .hero
+  > header
+  .navigation-header
   .user-account
   .btn-inscreva {
   font-weight: 700;
-  margin-right: 1.5rem;
+  margin-right: .75rem;
 }
 
 .content-center

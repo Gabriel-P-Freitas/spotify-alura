@@ -1,5 +1,6 @@
 aside.sidebar {
   width: 300px;
+  min-width: auto;
 }
 aside.sidebar .sidebar-navigation {
   background-color: #121212;
@@ -82,4 +83,9 @@ footer.footer-spotify {
 footer.footer-spotify .content-footer {
   align-items: center;
   justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+footer.footer-spotify .content-footer .info-footer{
+  width: 70%;
 }
