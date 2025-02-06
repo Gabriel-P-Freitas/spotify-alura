@@ -67,6 +67,10 @@ body {
   transition: 0.3s ease-in all;
 }
 
+.hidden{
+  display: none;
+}
+
 h1,
 h2,
 h3,

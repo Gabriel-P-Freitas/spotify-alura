@@ -87,7 +87,9 @@
                     placeholder="O que você quer ouvir hoje?"
                     name=""
                     maxlength="400"
+                    autocorrect="off" autocapitalize="off" spellcheck="false"
                     id="input-music"
+                    value=""
                   />
                 </div>
               </div>
@@ -104,106 +106,114 @@
             </nav>
           </header>
           <main class="white-color">
-            <h1 class="mb-6">Boa tarde</h1>
+            <h1 id="greeting" class="mb-6">Boa tarde</h1>
             <h2 class="mb-6">Navegar por todas as seções</h2>
-
             <section class="mb-6">
-              <nav class="">
-                <ul class="offer-list">
-                  <li class="offer-list-item offer-list-item-1 transition">
-                    <a class="white-color p-3" href="">
-                      <h3>Boas festas</h3>
-                      <img src="src/assets/playlist/1.jpeg" alt="" />
-                    </a>
-                  </li>
+              <div id="result-playlists">
+                <nav class="">
+                  <ul class="offer-list">
+                    <li class="offer-list-item offer-list-item-1 transition">
+                      <a class="white-color p-3" href="">
+                        <h3>Boas festas</h3>
+                        <img src="src/assets/playlist/1.jpeg" alt="" />
+                      </a>
+                    </li>
+                    <li class="offer-list-item offer-list-item-2 transition">
+                      <a class="white-color p-3" href="">
+                        <h3>Feitos para você</h3>
+                        <img src="src/assets/playlist/2.png" alt="" />
+                      </a>
+                    </li>
+                    <li class="offer-list-item offer-list-item-3 transition">
+                      <a class="white-color p-3" href="">
+                        <h3>Lançamentos</h3>
+                        <img src="src/assets/playlist/3.jpeg" alt="" />
+                      </a>
+                    </li>
+                    <li class="offer-list-item offer-list-item-4 transition">
+                      <a class="white-color p-3" href="">
+                        <h3>Creators</h3>
+                        <img src="src/assets/playlist/6.jpeg" alt="" />
+                      </a>
+                    </li>
+                    <li class="offer-list-item offer-list-item-5 transition">
+                      <a class="white-color p-3" href="">
+                        <h3>Podcasts</h3>
+                        <img src="src/assets/playlist/4.jpeg" alt="" />
+                      </a>
+                    </li>
+                    <li class="offer-list-item offer-list-item-6 transition">
+                      <a class="white-color p-3" href="">
+                        <h3>Sertanejo</h3>
+                        <img src="src/assets/playlist/7.jpeg" alt="" />
+                      </a>
+                    </li>
+                    <li class="offer-list-item offer-list-item-7 transition">
+                      <a class="white-color p-3" href="">
+                        <h3>Louvor ao Deus Altíssimo</h3>
+                        <img
+                          src="src/assets/playlist/louvor-Deus.svg"
+                          alt="Disco louve a Deus"
+                        />
+                      </a>
+                    </li>
+                    <li class="offer-list-item offer-list-item-8 transition">
+                      <a class="white-color p-3" href="">
+                        <h3>Rock Gospel</h3>
+                        <img
+                          src="src/assets/playlist/rock-gospel.svg"
+                          alt="Disco Oficina G3"
+                        />
+                      </a>
+                    </li>
+                    <li class="offer-list-item offer-list-item-9 transition">
+                      <a class="white-color p-3" href="">
+                        <h3>MPB</h3>
+                        <img src="src/assets/playlist/10.jpeg" alt="" />
+                      </a>
+                    </li>
+                    <li class="offer-list-item offer-list-item-10 transition">
+                      <a class="white-color p-3" href="">
+                        <h3>Hip Hop</h3>
+                        <img src="src/assets/playlist/15.jpeg" alt="" />
+                      </a>
+                    </li>
+                    <li class="offer-list-item offer-list-item-11 transition">
+                      <a class="white-color p-3" href="">
+                        <h3>Indle</h3>
+                        <img src="src/assets/playlist/13.jpeg" alt="" />
+                      </a>
+                    </li>
+                    <li class="offer-list-item offer-list-item-12 transition">
+                      <a class="white-color p-3" href="">
+                        <h3>Relax</h3>
+                        <img src="src/assets/playlist/14.jpeg" alt="" />
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
 
-                  <li class="offer-list-item offer-list-item-2 transition">
-                    <a class="white-color p-3" href="">
-                      <h3>Feitos para você</h3>
-                      <img src="src/assets/playlist/2.png" alt="" />
-                    </a>
-                  </li>
-
-                  <li class="offer-list-item offer-list-item-3 transition">
-                    <a class="white-color p-3" href="">
-                      <h3>Lançamentos</h3>
-                      <img src="src/assets/playlist/3.jpeg" alt="" />
-                    </a>
-                  </li>
-
-                  <li class="offer-list-item offer-list-item-4 transition">
-                    <a class="white-color p-3" href="">
-                      <h3>Creators</h3>
-                      <img src="src/assets/playlist/6.jpeg" alt="" />
-                    </a>
-                  </li>
-
-                  <li class="offer-list-item offer-list-item-5 transition">
-                    <a class="white-color p-3" href="">
-                      <h3>Podcasts</h3>
-                      <img src="src/assets/playlist/4.jpeg" alt="" />
-                    </a>
-                  </li>
-
-                  <li class="offer-list-item offer-list-item-6 transition">
-                    <a class="white-color p-3" href="">
-                      <h3>Sertanejo</h3>
-                      <img src="src/assets/playlist/7.jpeg" alt="" />
-                    </a>
-                  </li>
-
-                  <li class="offer-list-item offer-list-item-7 transition">
-                    <a class="white-color p-3" href="">
-                      <h3>Louvor ao Deus Altíssimo</h3>
-                      <img
-                        src="src/assets/playlist/louvor-Deus.svg"
-                        alt="Disco louve a Deus"
-                      />
-                    </a>
-                  </li>
-
-                  <li class="offer-list-item offer-list-item-8 transition">
-                    <a class="white-color p-3" href="">
-                      <h3>Rock Gospel</h3>
-                      <img
-                        src="src/assets/playlist/rock-gospel.svg"
-                        alt="Disco Oficina G3"
-                      />
-                    </a>
-                  </li>
-
-                  <li class="offer-list-item offer-list-item-9 transition">
-                    <a class="white-color p-3" href="">
-                      <h3>MPB</h3>
-                      <img src="src/assets/playlist/10.jpeg" alt="" />
-                    </a>
-                  </li>
-
-                  <li class="offer-list-item offer-list-item-10 transition">
-                    <a class="white-color p-3" href="">
-                      <h3>Hip Hop</h3>
-                      <img src="src/assets/playlist/15.jpeg" alt="" />
-                    </a>
-                  </li>
-
-                  <li class="offer-list-item offer-list-item-11 transition">
-                    <a class="white-color p-3" href="">
-                      <h3>Indle</h3>
-                      <img src="src/assets/playlist/13.jpeg" alt="" />
-                    </a>
-                  </li>
-
-                  <li class="offer-list-item offer-list-item-12 transition">
-                    <a class="white-color p-3" href="">
-                      <h3>Relax</h3>
-                      <img src="src/assets/playlist/14.jpeg" alt="" />
-                    </a>
-                  </li>
-                </ul>
-              </nav>
+              <div id="result-artist" class="hidden">
+                <div class="grid-container">
+                    <div class="artist-card" id="">
+                        <div class="card-img">
+                            <img id="artist-img" class="artist-img" />
+                            <div class="play">
+                                <span class="fa fa-solid fa-play"></span>
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            <a title="Foo Fighters" class="vst" href=""></a>
+                            <span class="artist-name" id="artist-name"></span>
+                            <span class="artist-categorie">Artista</span>
+                            </a>
+                        </div>
+                    </div>
+                  </div>
+              </div>
             </section>
-          </main>
-        </div>
+        </main>
       </section>
       <footer class="footer-spotify mx-auto">
         <section class="content-footer white-color content-center flex">
@@ -220,5 +230,6 @@
         </section>
       </footer>
     </div>
+    <script type="text/javascript" src="src/scripts/script.js"></script>
   </body>
 </html>
