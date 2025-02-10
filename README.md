@@ -1,8 +1,33 @@
+# 🎶 Spotify-Alura
+
 ![spotify-image](https://github.com/user-attachments/assets/e947aba0-1c3f-409b-86ae-5d22da756360)
 
-# Spotify-Alura
+## 🎯 Este repositório foi feito a partir da 2ª edição da Imersão Front-End ofertada pela Alura, a qual foi dividida em 5 aulas (Segunda - Sexta). Aprovetei essa oportunidade para consolidar os meus conhecimentos no desenvolvimento FrontEnd.
 
-## Este repositório foi feito a partir da 2ª edição da Imersão Front-End ofertada pela Alura, onde aproveitei a oportunidade para consolidar os meus conhecimentos no FrontEnd. 
+### 📚 AULA 01:
+- Introdução ao HTML, CSS e JavaScript;
+- Introduzir as propriedades de estilo do CSS no projeto, com truques no Devtools;
+- Construção da SideBar Navigation;
 
-AULA 01:
+### 📚 AULA 02:
+- Aprofundamento nas CSS com FlexBox;
+- Finalização da SideBar;
+- Criação do Footer;
+
+### 📚 AULA 03:
+- Refatoração do código;
+- Criação do Header;
+- Iniciando o Menu;
+- Princípios da Responsivade;
+
+### 📚 AULA 04:
+- CSS Grid layout;
+- Uso de Media Queries para responsividade;
+- Uso DOM JavaScript;
+- Método Promises JavaScript
+- Integração à API;
+
+### 📚 AULA 05:
+
+
 
