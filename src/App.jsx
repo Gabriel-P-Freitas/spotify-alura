@@ -1,3 +1,12 @@
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import Header from "./header/Header.jsx";
+import Main from "./main/Main.jsx";
+import Aside from "./aside/Aside.jsx";
+import Footer from "./footer/Footer.jsx";
+import "./index.css";
+import "./App.css";
+
 const searchInput = document.getElementById("input-music");
 const resultArtists = document.getElementById("result-artist");
 const resultPlaylist = document.getElementById("result-playlists");
@@ -42,3 +51,18 @@ cardArtist.addEventListener("mouseover", () => {
 cardArtist.addEventListener("mouseout", () => {
   playArtist.classList.remove("active");
 });
+
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
+    <div className="content">
+      <section className="content-center flex mb-6">
+        <Aside />
+        <div className="hero flex">
+          <Header />
+          <Main />
+        </div>
+      </section>
+      <Footer />
+    </div>
+  </StrictMode>
+);

@@ -72,20 +72,3 @@ aside.sidebar .sidebar-navigation .language {
 aside.sidebar .sidebar-navigation .language:hover {
   background-color: #1f1f1f;
 }
-
-/* FOOTER STYLES */
-
-footer.footer-spotify {
-  background: linear-gradient(to right, #ae2896, #509bf5);
-  padding: 16px 32px;
-}
-
-footer.footer-spotify .content-footer {
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
-  flex-wrap: wrap;
-}
-footer.footer-spotify .content-footer .info-footer {
-  width: 70%;
-}

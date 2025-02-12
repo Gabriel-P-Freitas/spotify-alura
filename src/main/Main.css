@@ -1,0 +1,121 @@
+main .offer-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+    padding: 16px 12px 0px 0px;
+    height: 22.5rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  main .offer-list::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+  }
+  
+  main .offer-list::-webkit-scrollbar-thumb {
+    background-color: var(--text-color);
+    border-radius: 8px;
+  }
+  
+  main .offer-list .offer-list-item {
+    height: 200px;
+    overflow: hidden;
+    border-radius: 16px;
+  }
+  
+  main .offer-list .offer-list-item:hover {
+    transform: scale(1.04);
+  }
+  
+  main .offer-list .offer-list-item a {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  main .offer-list .offer-list-item a img {
+    position: absolute;
+    bottom: -5px;
+    right: -10px;
+    width: 100px;
+    transform: rotate(22.5deg);
+  }
+  
+  main .offer-list .offer-list-item-1 {
+    background-color: rgb(0, 100, 80);
+  }
+  main .offer-list .offer-list-item-2 {
+    background-color: rgb(132, 0, 231);
+  }
+  main .offer-list .offer-list-item-3 {
+    background: rgb(30, 50, 100);
+  }
+  main .offer-list .offer-list-item-4 {
+    background: rgb(140, 25, 50);
+  }
+  main .offer-list .offer-list-item-5 {
+    background: rgb(232, 17, 91);
+  }
+  main .offer-list .offer-list-item-6 {
+    background: rgb(83, 122, 161);
+  }
+  main .offer-list .offer-list-item-7 {
+    background: rgb(142, 102, 172);
+  }
+  main .offer-list .offer-list-item-8 {
+    background: rgb(20, 138, 8);
+  }
+  main .offer-list .offer-list-item-9 {
+    background: rgb(30, 50, 100);
+  }
+  main .offer-list .offer-list-item-10 {
+    background: rgb(233, 20, 41);
+  }
+  main .offer-list .offer-list-item-11 {
+    background: rgb(80, 55, 80);
+  }
+  main .offer-list .offer-list-item-12 {
+    background: rgb(216, 64, 0);
+  }
+  
+  #result-artist .grid-container .artist-card {
+    width: max-content;
+    padding: 12px;
+    border-radius: 8px;
+  }
+  #result-artist .grid-container .artist-card:hover {
+    background-color: #202020;
+    cursor: pointer;
+  }
+  
+  #result-artist .grid-container .artist-card .card-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #result-artist .grid-container .artist-card .card-img {
+    width: max-content;
+    position: relative;
+  }
+  
+  #result-artist .grid-container .artist-card .card-img img {
+    width: 144px;
+    height: 144px;
+    border-radius: 999px;
+  }
+  #result-artist .grid-container .artist-card .card-img .play {
+    position: absolute;
+    background-color: rgb(68, 154, 68);
+    border-radius: 999px;
+    padding: 5px 12px;
+    bottom: 15px;
+    right: 15px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+  }
+  
+  #result-artist .grid-container .artist-card .card-img .play.active {
+    opacity: 1;
+  }
+  

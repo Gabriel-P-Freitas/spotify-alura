@@ -1,0 +1,80 @@
+.content-center > .hero > header {
+  padding: 0.75rem 1.5rem;
+  background-color: #121212;
+  border-radius: 12px;
+  margin-bottom: 32px;
+}
+
+.content-center > .hero > header .navigation-header {
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 16px;
+}
+
+.content-center > .hero > header .navigation-header .search {
+  align-items: center;
+  column-gap: 24px;
+}
+
+.content-center > .hero > header .navigation-header .search .search-music {
+  align-items: center;
+  border-radius: 24px;
+  padding-left: 16px;
+  background-color: #202020;
+  border: 1px solid transparent;
+}
+
+.content-center
+  > .hero
+  > header
+  .navigation-header
+  .search
+  .search-music:hover {
+  border: solid 1px var(--text-color);
+}
+
+.content-center
+  > .hero
+  > header
+  .navigation-header
+  .search
+  .search-music
+  .input-music {
+  background-color: transparent;
+  width: 224px;
+  padding: 16px 20px 16px 20px;
+  text-overflow: ellipsis;
+  border: none;
+  outline: none;
+  color: var(--text-color);
+}
+
+.content-center > .hero > header .navigation-header .user-account {
+  align-items: center;
+  justify-content: center;
+}
+
+.content-center
+  > .hero
+  > header
+  .navigation-header
+  .user-account
+  .btn-inscreva {
+  font-weight: 700;
+  margin-right: 0.75rem;
+}
+
+.content-center
+  > .hero
+  > header
+  .navigation-header
+  .user-account
+  .btn-inscreva:hover {
+  color: var(--white-color);
+}
+
+.arrow-secundary {
+  opacity: 0.5;
+  margin-left: 32px;
+}
