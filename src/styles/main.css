@@ -56,13 +56,9 @@
   color: var(--text-color);
 }
 
-.content-center
-  > .hero
-  > header
-  .navigation-header
-  .user-account{
-    align-items: center;
-    justify-content: center;
+.content-center > .hero > header .navigation-header .user-account {
+  align-items: center;
+  justify-content: center;
 }
 
 .content-center
@@ -72,7 +68,7 @@
   .user-account
   .btn-inscreva {
   font-weight: 700;
-  margin-right: .75rem;
+  margin-right: 0.75rem;
 }
 
 .content-center
@@ -168,4 +164,44 @@ main .offer-list .offer-list-item-11 {
 }
 main .offer-list .offer-list-item-12 {
   background: rgb(216, 64, 0);
+}
+
+#result-artist .grid-container .artist-card {
+  width: max-content;
+  padding: 12px;
+  border-radius: 8px;
+}
+#result-artist .grid-container .artist-card:hover {
+  background-color: #202020;
+  cursor: pointer;
+}
+
+#result-artist .grid-container .artist-card .card-text {
+  display: flex;
+  flex-direction: column;
+}
+
+#result-artist .grid-container .artist-card .card-img {
+  width: max-content;
+  position: relative;
+}
+
+#result-artist .grid-container .artist-card .card-img img {
+  width: 144px;
+  height: 144px;
+  border-radius: 999px;
+}
+#result-artist .grid-container .artist-card .card-img .play {
+  position: absolute;
+  background-color: rgb(68, 154, 68);
+  border-radius: 999px;
+  padding: 5px 12px;
+  bottom: 15px;
+  right: 15px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+}
+
+#result-artist .grid-container .artist-card .card-img .play.active {
+  opacity: 1;
 }

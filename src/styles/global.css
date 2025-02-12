@@ -48,7 +48,7 @@ body {
 }
 
 .p-3 {
-  padding: 12px !important;
+  padding: 12px;
 }
 
 .fs-large {
@@ -67,7 +67,7 @@ body {
   transition: 0.3s ease-in all;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
 
