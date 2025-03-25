@@ -7,22 +7,26 @@
 ### 📜 Essa imersão foi dividida em 5 aulas (Segunda - Sexta), na qual aprovetei essa oportunidade para consolidar os meus conhecimentos no desenvolvimento FrontEnd e no mercado de trabalho. Vejamos alguns pontos abordados em aulas:
 
 ### 📚 AULA 01:
+
 - Introdução ao HTML, CSS e JavaScript;
 - Introduzir as propriedades de estilo do CSS no projeto, com truques no Devtools;
 - Construção da SideBar Navigation;
 
 ### 📚 AULA 02:
+
 - Aprofundamento nas CSS com FlexBox;
 - Finalização da SideBar;
 - Criação do Footer;
 
 ### 📚 AULA 03:
+
 - Refatoração do código;
 - Criação do Header;
 - Iniciando o Menu;
 - Princípios da Responsivade;
 
 ### 📚 AULA 04:
+
 - CSS Grid layout;
 - Uso de Media Queries para responsividade;
 - Uso DOM JavaScript;
@@ -30,8 +34,10 @@
 - Integração à API;
 
 ### 📚 AULA 05:
+
 - Integração ao React.js;
 - Componentização do projeto;
 - A importância do Networking;
 
-
+// npm i json-server -g
+// json-server --watch api-artists/artists.json --port 3000
