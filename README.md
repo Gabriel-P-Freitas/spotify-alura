@@ -39,5 +39,8 @@
 - Componentização do projeto;
 - A importância do Networking;
 
+Link Project (Deploy) - https://gabriel-p-freitas.github.io/spotify-alura/
+
 // npm i json-server -g
+
 // json-server --watch api-artists/artists.json --port 3000
